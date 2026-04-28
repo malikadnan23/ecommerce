@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"><img class="logo" src="./img/logo.png" alt=""></a>
+        <div class="nav-links">
+            <ul id="navbar">
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="hero">
+        <h4>Summer Collection</h4>
+        <h1>Save up to 50% Off</h1>
+        <h2>New Arrivals</h2>
+        <p>Discover our latest arrivals and exclusive deals.</p>
+        <button>Shop Now</button>
+    </div>
+
+
+    <div id="feature" class="section-p1">
+
+    </div>
+
+
+    <div style="background-color: rgb(242, 250, 250);" id="product1" class="section-p1">
+        <h2 style="text-align: center;">Featured Products</h2>
+        <p style="text-align: center;">Check out our featured products and discover amazing deals.</p>
+        <div id="pro-container" class="pro-container">
+            <!-- <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="repair section-p1">
+        <h2>Repair Services</h2>
+        <h1>We offer <span>expert repair</span> services for all your dressing devices.</h1>
+        <button>Explore More</button>
+    </div>
+
+    <div id="product1" class="section-p1">
+        <h2 style="text-align: center;">New Arrivals</h2>
+        <p style="text-align: center;">Check out our latest arrivals and exclusive deals.</p>
+        <div id="new-container" class="pro-container">
+            <!-- <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
+    <script src="https://kit.fontawesome.com/4604115aea.js" crossorigin="anonymous"></script>
+</body>
+
+<script>
+    const feature = [{
+        img: "img/features/f1.png",
+        title: "Free Shipping",
+    }, {
+        img: "img/features/f2.png",
+        title: "Online Order",
+    }, {
+        img: "img/features/f3.png",
+        title: "Save Money",
+    }, {
+        img: "img/features/f4.png",
+        title: "Promotions",
+    }, {
+        img: "img/features/f5.png",
+        title: "Happy Sell",
+    }, {
+        img: "img/features/f6.png",
+        title: "24/7 Support",
+    }];
+    const products = [{
+        img: "img/products/f1.jpg",
+        brand: "adidas",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "80$",
+    }, {
+        img: "img/products/f2.jpg",
+        brand: "adidas",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 4, price: "80$",
+    },
+    {
+        img: "img/products/f3.jpg",
+        brand: "Nike",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 4, price: "30$",
+    },
+    {
+        img: "img/products/f4.jpg",
+        brand: "puma",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "100$",
+    },
+    {
+        img: "img/products/f5.jpg",
+        brand: "adidas",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "50$",
+    },
+    {
+        img: "img/products/f6.jpg",
+        brand: "GUCCI",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "70$",
+    },
+    {
+        img: "img/products/f7.jpg",
+        brand: "Luois Vitton",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "40$",
+    },
+    {
+        img: "img/products/f8.jpg",
+        brand: "Celvin Klein",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 4,
+        price: "40$",
+    },
+    ]
+    const newproducts = [{
+        img: "img/products/n1.jpg",
+        brand: "adidas",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "80$",
+    }, {
+        img: "img/products/n2.jpg",
+        brand: "adidas",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 4, price: "80$",
+    },
+    {
+        img: "img/products/n3.jpg",
+        brand: "Nike",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 4, price: "30$",
+    },
+    {
+        img: "img/products/n4.jpg",
+        brand: "puma",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "100$",
+    },
+    {
+        img: "img/products/n5.jpg",
+        brand: "adidas",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "50$",
+    },
+    {
+        img: "img/products/n6.jpg",
+        brand: "GUCCI",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "70$",
+    },
+    {
+        img: "img/products/n7.jpg",
+        brand: "Luois Vitton",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 5, price: "40$",
+    },
+    {
+        img: "img/products/n8.jpg",
+        brand: "Celvin Klein",
+        title: "Cartoon Astronaut T-Shirts",
+        rating: 4,
+        price: "40$",
+    },
+    ]
+    const newcontainer = document.getElementById("new-container");
+    newproducts.forEach((item) => {
+        newcontainer.innerHTML += `
+    <div class="pro">
+                <img src="${item.img}" alt="">
+                <div class="des">
+                    <span>${item.brand}</span>
+                    <h5>${item.title}</h5>
+                    <div class="star">
+                        ${'<i class="fa-solid fa-star"></i>'.repeat(item.rating)}
+                    </div>
+                    <h4>${item.price}</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+    `
+    })
+    const procontainer = document.getElementById("pro-container");
+    products.forEach((item) => {
+        procontainer.innerHTML += `
+    <div class="pro">
+                <img src="${item.img}" alt="">
+                <div class="des">
+                    <span>${item.brand}</span>
+                    <h5>${item.title}</h5>
+                    <div class="star">
+                        ${'<i class="fa-solid fa-star"></i>'.repeat(item.rating)}
+                    </div>
+                    <h4>${item.price}</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+    `
+    })
+
+
+    const container = document.getElementById("feature");
+    feature.forEach((item) => {
+        container.innerHTML += `
+        <div class="fe-box">
+            <img src="${item.img}" alt="">
+            <h6>${item.title}</h6>
+        </div>
+        `
+    });
+</script>
+
+</html>
