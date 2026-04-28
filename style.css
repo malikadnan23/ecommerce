@@ -246,4 +246,55 @@ h4{
     background-color: #e3f5ec;
     color: #088178;
 }
+#sm-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#sm-banner .banner-box{
+    background: url(./img/banner/b17.jpg);
+    height: 50vh;
+    min-width: 580px;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 30px;
+}
+#sm-banner .banner-box2{
+     background: url(./img/banner/b10.jpg);
+}
+.banner-box h4{
+    color: #fff;
+    font-size: 30px;
+}
+.banner-box h2{
+    color: #fff;
+    font-size: 40px;
+}
+.banner-box span{
+    color: #e9dcdd;
+    margin-bottom: 10px;
+}
+.banner-box button{
+    padding: 14px 80px 14px 65px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.banner-box button:hover{
+    background-color: #088178;
+    color: #ffffff;
+  border: 1px solid #088178;
+}
 /* Shop Page */
