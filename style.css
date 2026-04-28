@@ -306,7 +306,7 @@ h4{
 #banner3 .banner-box{
  
     height: 40vh;
-    min-width: 30%;
+    min-width: 33%;
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -372,5 +372,31 @@ h4{
     border: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 80px;
+    background-color: #e3e6f3;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.06);
+}
+footer .icon{
+    display: flex;
+margin-top:10px ;
+    gap: 8px;
+}
+footer .col2{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 8px;
+    flex-direction: column;
+}
+footer .col2 a{
+    color: #1a1a1a;
+    font-size: 16px;
+    transition: 0.3s ease;
 }
 /* Shop Page */
