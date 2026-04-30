@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"><img class="logo" src="./img/logo.png" alt=""></a>
+        <div class="nav-links">
+            <ul id="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a id="id-bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a id="close" href=""><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+    </div>
+
+    <div id="shop-page">
+        <h4>#stay at home</h4>
+        <h1>Enjoy 50% Off on New Arrivals</h1>
+    </div>
+    <div style="background-color: rgb(242, 250, 250);" id="product1" class="section-p1">
+        <h2 style="text-align: center;">All Products</h2>
+        <p style="text-align: center;">Check out our featured products and discover amazing deals.</p>
+        <div id="shop-container" class="pro-container">
+            <!-- <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+
+    <!-- <div id="product1" class="section-p1">
+        <h2 style="text-align: center;">New Arrivals</h2>
+        <p style="text-align: center;">Check out our latest arrivals and exclusive deals.</p>
+        <div id="new-container" class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div> 
+        </div>
+    </div> -->
+
+    <div id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button>Sign Up</button>
+        </div>
+    </div>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="./img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 198 West 21th Street, Suite 720New York, NY 10016</p>
+            <p><strong>Phone:</strong> +1234567890</p>
+            <p><strong>Email:</strong> info@company.com</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col col2">
+            <h4>About Us</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col col2">
+            <h4>My Account</h4>
+            <a href="#">My Account</a>
+            <a href="#">Order Tracking</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Returns & Exchanges</a>
+            <a href="#">My Cart</a>
+        </div>
+        <div class="col">
+            <h4>Install App</h4>
+            <p>Download our app and get 10% off on your first purchase!</p>
+            <div class="row">
+                <img style="border-radius: 10px; cursor: pointer;" src="./img/pay/app.jpg" alt="">
+                <img style="border-radius: 10px; cursor: pointer;" src="./img/pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment</p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+        <div style="width: 100%; text-align: center;" class="copyright">
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js">
+
+    </script>
+    <script> const products = [
+            {
+                img: "img/products/n1.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "80$",
+            },
+            {
+                img: "img/products/n2.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "80$",
+            },
+            {
+                img: "img/products/n7.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "80$",
+            },
+            {
+                img: "img/products/f1.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "80$",
+            },
+            {
+                img: "img/products/n3.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "80$",
+            },
+
+            {
+                img: "img/products/n4.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "80$",
+            }, {
+                img: "img/products/f2.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 4, price: "80$",
+            },
+            {
+                img: "img/products/n5.jpg",
+                brand: "Nike",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 4, price: "30$",
+            },
+            {
+                img: "img/products/f4.jpg",
+                brand: "puma",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "100$",
+            },
+            {
+                img: "img/products/f5.jpg",
+                brand: "adidas",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "50$",
+            },
+            {
+                img: "img/products/f6.jpg",
+                brand: "GUCCI",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "70$",
+            },
+            {
+                img: "img/products/f7.jpg",
+                brand: "Luois Vitton",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 5, price: "40$",
+            },
+            {
+                img: "img/products/f8.jpg",
+                brand: "Celvin Klein",
+                title: "Cartoon Astronaut T-Shirts",
+                rating: 4,
+                price: "40$",
+            },
+        ]
+        const shopcontainer = document.getElementById("shop-container");
+        products.forEach((item) => {
+            shopcontainer.innerHTML += `
+    <div class="pro" style="cursor: pointer;" onclick="window.location.href='sproduct.html'">
+                <img src="${item.img}" alt="">
+                <div class="des">
+                    <span>${item.brand}</span>
+                    <h5>${item.title}</h5>
+                    <div class="star">
+                        ${'<i class="fa-solid fa-star"></i>'.repeat(item.rating)}
+                    </div>
+                    <h4>${item.price}</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+    `
+        })</script>
+</body>
+
+</html>

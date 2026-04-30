@@ -311,7 +311,7 @@
     const newcontainer = document.getElementById("new-container");
     newproducts.forEach((item) => {
         newcontainer.innerHTML += `
-    <div class="pro">
+    <div class="pro"  style="cursor: pointer;" onclick="window.location.href='sproduct.html'">
                 <img src="${item.img}" alt="">
                 <div class="des">
                     <span>${item.brand}</span>
@@ -330,7 +330,7 @@
     const procontainer = document.getElementById("pro-container");
     products.forEach((item) => {
         procontainer.innerHTML += `
-    <div class="pro">
+    <div class="pro"  style="cursor: pointer;" onclick="window.location.href='sproduct.html'">
                 <img src="${item.img}" alt="">
                 <div class="des">
                     <span>${item.brand}</span>
@@ -357,6 +357,8 @@
         </div>
         `
     });
+
+
 </script>
 
 </html>
