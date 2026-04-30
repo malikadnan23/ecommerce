@@ -457,6 +457,10 @@ gap: 20px;
     border-radius: 8px;
 
 }
+#prodetails .small-img-group .small-img{
+   
+    cursor: pointer;
+}
 #prodetails .small-img-group{
     display: flex;
     align-items: center;
